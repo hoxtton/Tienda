@@ -3,3 +3,52 @@
     Author     : horac
 */
 
+footer p{
+    background-color: blue;
+    color:white;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+
+h2{
+    background-color: green;
+    color: yellow;
+    font-size: 24px;
+}
+
+.aviso{
+    background-color: green;
+    color:white;
+}
+
+#btnAlgo{
+
+}
+
+table{
+    width: 90%;
+}
+
+thead tr{
+    background-color: black;
+    color:white;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: blue;
+    color:white;
+}
+
+tbody tr:nth-child(even){
+    background-color: black;
+    color:white;
+}
