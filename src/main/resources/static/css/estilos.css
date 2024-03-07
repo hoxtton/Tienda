@@ -1,54 +1,99 @@
-/* 
-    Created on : 29 ene 2024, 20:03:46
-    Author     : horac
-*/
+/* Comentario */
 
-footer p{
+tbody tr:nth-child(odd) {
     background-color: blue;
-    color:white;
+    color: white
 }
 
-h1,h2{
-    text-align: center;
-}
-
-h1{
+tbody tr:nth-child(even) {
     background-color: black;
+    color: white
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #076af0;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 90px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
     color: white;
-    font-size: 32px;
+    text-decoration: none;    
 }
 
-h2{
-    background-color: green;
-    color: yellow;
-    font-size: 24px;
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
 }
 
-.aviso{
-    background-color: green;
-    color:white;
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 90px;
+    width: max-content;
+    
 }
 
-#btnAlgo{
-
+.nav-menu-link:hover {
+    background-color: #024070;
+    transition: 0.5s;
 }
 
-table{
-    width: 90%;
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 10px;
 }
 
-thead tr{
-    background-color: black;
-    color:white;
 
+.aside {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 20%;
+    height: 75%;
+    background-color: aqua;
 }
 
-tbody tr:nth-child(odd){
-    background-color: blue;
-    color:white;
+.section {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 80%;
+    height: 75%;
+    background-color: bisque;
+    overflow-y: scroll;
 }
 
-tbody tr:nth-child(even){
-    background-color: black;
-    color:white;
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: yellowgreen;
+    text-align: center;
 }
