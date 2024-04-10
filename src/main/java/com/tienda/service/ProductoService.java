@@ -17,7 +17,7 @@ public interface ProductoService {
     // Se elimina el producto que tiene el id pasado por parámetro
     public void delete(Producto producto);
 
-    //Lista de productos con precio entre, ordenados por descripcion (Consulta Ampliada)
+    // Lista de productos con precio entre ordendados por descripción ConsultaAmpliada
     public List<Producto> findByPrecioBetweenOrderByDescripcion(double precioInf, double precioSup);
 
     //Lista de productos utilizando consultas con JPQL    
@@ -25,4 +25,5 @@ public interface ProductoService {
 
     //Lista de productos utilizando consultas con SQL Nativo
     public List<Producto> metodoNativo(double precioInf, double precioSup);
+
 }
